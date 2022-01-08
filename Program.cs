@@ -78,8 +78,18 @@ namespace HelloWorld
         static void numberTwo(int A = 0, int B = 0, int C = 0, int D = 0)
         {
             int[] arr = { A, B, C, D };
+            int min = arr[1];
             Console.Write("Kết quả số nhỏ nhất là: ");
-            Console.WriteLine(arr.Min());
+            // Console.WriteLine(arr.Min());
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (min >= arr[i])
+                {
+
+                    min = arr[i];
+                }
+            }
+            Console.WriteLine(min);
         }
         static void Main(string[] args)
         {
