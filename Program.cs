@@ -46,7 +46,7 @@ namespace HelloWorld
             }
             else
             {
-                Console.WriteLine("Vui lòng nhập số tự nhiên.");
+                Console.WriteLine("Vui lòng nhập số tự nguyên.");
                 return InputInt(label);
             }
         }
@@ -96,9 +96,9 @@ namespace HelloWorld
             string? numberSelect;
 
             Console.WriteLine("Hãy chọn loại bài tập.");
-            Console.WriteLine("1. Phương trình ax2 + bx + c = 0.");
-            Console.WriteLine("2. Nhập 4 số nguyên, tìm số nhỏ nhất");
-            Console.WriteLine("3. Thoát");
+            Console.WriteLine("1. Phương trình ax2 + bx + c = 0. (bấm 1)");
+            Console.WriteLine("2. Nhập 4 số nguyên, tìm số nhỏ nhất. (bấm 2)");
+            Console.WriteLine("3. Thoát. (bấm 3)");
             Console.WriteLine("==================");
             Console.Write("Chọn bài số: ");
             numberSelect = Console.ReadLine();
